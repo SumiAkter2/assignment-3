@@ -1,0 +1,22 @@
+.common-font-style{
+    font-family: 'Poppins', sans-serif;
+}
+.banner-img{
+    
+ background-blend-mode: overlay;
+}
+ .nav-bar{
+     height: 80px.;
+ }
+
+.header-text{
+    font-family: 'Lobster', cursive;
+    color: rgb(243, 63, 213);
+}
+.header-text-color{
+    color: rgb(243, 63, 213);
+}
+.banner{
+
+    height: calc(100vh-80px);
+}
