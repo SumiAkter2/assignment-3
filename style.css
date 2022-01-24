@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 .common-font-style{
     font-family: 'Poppins', sans-serif;
 }
@@ -23,4 +27,13 @@
 .footer-bg{
     background-color:rgb(63, 22, 63) ;
     color:rgb(243, 63, 213) ;
+}
+.arrow a:active{
+    transform: rotate(180deg);
+}
+.contact-us{
+    background-image: url(images/banner.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
 }

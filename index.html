@@ -45,7 +45,7 @@
         </div>
       </nav>
        <!-- ============================================carousel =======================================-->
-      <section class="container banner">
+      <section class=" banner">
         <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
               <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -66,7 +66,7 @@
                 <div class="carousel-caption d-none d-md-block">
                   <h1 class="header-text">Jennry and Mark</h1>
                   <p class="header-text-color fs-4">They are celebrate their 1st anniversary .</p>
-                  <button style="background-color: rgb(243, 63, 213);" class="btn  text-light fs-4 px-4 rounded-pill">See more</button>
+                 <a href="https://themeforest.net/category/wordpress/wedding"> <button style="background-color: rgb(243, 63, 213);" class="btn  text-light fs-4 px-4 rounded-pill">See more</button></a>
                 </div>
               </div>
               <div class="carousel-item">
@@ -74,7 +74,7 @@
                 <div class="carousel-caption d-none d-md-block ">
                   <h1 class="header-text">Merry Louis and Jonas Carala</h1>
                   <p class="header-text-color fs-4">They are the best couple of our event.They are enjoying their 5 years anniversary.</p>
-                 <button style="background-color: rgb(243, 63, 213);" class="btn text-light fs-4 px-4 rounded-pill">See more</button>
+                <a href="https://themeforest.net/category/wordpress/wedding"> <button style="background-color: rgb(243, 63, 213);" class="btn text-light fs-4 px-4 rounded-pill">See more</button></a>
                 </div>
               </div>
             </div>
@@ -96,17 +96,7 @@
    
 <main>
   
-  <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
-    <div class="toast-header">
-      <img src="" class="rounded me-2" alt="...">
-      <strong class="me-auto">Bootstrap</strong>
-      <small>11 mins ago</small>
-      <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
-    </div>
-    <div class="toast-body">
-      Hello, world! This is a toast message.
-    </div>
-  </div>
+ 
 
  <!-- =======================main section===================== -->
   
@@ -121,7 +111,20 @@
   
   </section>
   
-  
+  <!--================== toast ===========================-->
+  <div class="toast show" role="alert" aria-live="assertive" aria-atomic="true">
+    <div class="toast-header">
+      <img src="gift.jpg" width="50" alt="">
+      <strong class="me-auto">Offer!</strong>
+      <div class="toast-body">Hey! our special discount offer is upcoming.</div>
+      <small>11 mins ago</small>
+      
+      <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+    </div>
+    
+  </div>
+
+<!-- =======================services================ -->
   <section class="container h-100">
   
   <div class="row p-5 text-center ">
@@ -130,9 +133,11 @@
   <h2 style="color:rgb(243, 63, 213);">Our services</h2>
   <p>We top into over 30 years of Permier Experience, as well as degress and extensive trainig in celory school, event products, destination management, fashion design. We have reconized by national industry publication includes.</p>
 </div>
-  <div class="d-flex  justify-content-evenly">
-   <p> <img class="img-fluid rounded-circle" src="pexels-ylanite-koppens-796606.jpg" width="300" alt=""> <br>
-    Birthday Event</p>
+  <div class="d-flex flex-row justify-content-evenly">
+  
+    <p> <img class="img-fluid rounded-circle" src="pexels-ylanite-koppens-796606.jpg" width="300" alt=""> <br>
+      Birthday Event</p>
+   
     <p><img class="img-fluid rounded-circle" src="pexels-wendy-wei-1190298.jpg" width="300" alt=""> <br> Party</p>
   
    <p> <img class="img-fluid rounded-circle" src="wedding-1.jpg" width="300" alt=""> <br> Wedding Event</p>
@@ -143,10 +148,10 @@
   </div>
   </section>
   <!-- =============================package section================= -->
-  <section class="container p-2 mb-5 h-100">
+  <section class="container p-2 mb-5  d-flex flex-column align-self-center">
   <h2 style="color:rgb(243, 63, 213); text-align: center; padding-bottom: 80px;" >Information of our package</h2>
   <div class="row">
-  <div class="col-lg-3 col-md-12 text-center">
+  <div class="col-lg-3 col-md-6 col-sm-12 text-start">
     <div>
       <h2>$600</h2>
     <h3>Birthday Event</h3>
@@ -161,7 +166,7 @@
     </div>
   
   </div>
-  <div class="col-lg-3 col-md-12 text-center">
+  <div class="col-lg-3 col-md-6 col-sm-12 text-start">
     <div>
       <h2>$1500</h2>
     <h3>Wedding Event</h3>
@@ -175,11 +180,11 @@
     <button style="background-color: rgb(243, 63, 213);" class="btn  text-light fs-4 px-4 rounded-pill">See more</button>
     </div>
   </div>
-  <div class="col-lg-3 col-md-12 text-center">
+  <div class="col-lg-3 col-md-6 col-sm-12 text-start">
     <div class="shadow-lg p-3 text-light rounded   position-relative  " style="background-color: rgb(248, 144, 231); ;">
       <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
         Booked
-        <span class="visually-hidden">unread messages</span>
+        <span class="visually-hidden"></span>
       </span>
       <h2>$2000</h2>
     <h3>Anniversary Event</h3>
@@ -193,11 +198,12 @@
     <button style="background-color: rgb(243, 63, 213);" class="btn  text-light fs-4 px-4 rounded-pill">See more</button>
     </div>
   </div>
-  <div class="col-lg-3 col-md-12  text-center">
+  <div class="col-lg-3 col-md-6 col-sm-12  text-start">
     <div>
       <h2>$1000</h2>
     <h3>Corporate Event</h3>
-    <p><i class="fas fa-chevron-right"></i>Strong security</p>
+    
+      <p><i class="fas fa-chevron-right"></i>Strong security</p>
     <p><i class="fas fa-chevron-right"></i>Food Quality</p>
     <p><i class="fas fa-chevron-right"></i>large space</p>
     <p><i class="fas fa-chevron-right"></i>Per day bill</p>
@@ -205,16 +211,97 @@
     <p><i class="fas fa-chevron-right"></i>Best Interner</p>
     <p><i class="fas fa-chevron-right"></i>Dedicated team</p>
     <button style="background-color: rgb(243, 63, 213);" class="btn  text-light fs-4 px-4 rounded-pill">See more</button>
+   
     </div>
   </div>
   </div>
   </section>
+<!--====================== Question section =====================-->
+<section class="container">
+  <h2 style="color:rgb(243, 63, 213); text-align: center;" class="fs-1">F A Q ! Need Help?</h2>
+  <div class="row"> 
+    
+      
+    <div class="col-md-6">
+     <div class="row">
+      <div>
+        <p>
+          <div class="arrow fs-4 d-flex justify-content-between"> Where are the ceremony and reception taking place? <a class="btn " data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+            <i class="fas  fa-angle-down"></i>
+           </a></div>
+            
+          </p>
+          <div class="collapse" id="collapseExample">
+            <div class="card card-body">
+             Some wedding have the same venue for the ceremony and the reception, others do not. Give your guests the addresses for each venue and any information on transport between sites.
+            </div>
+      </div>
+         
+    </div>
+     </div>
+<div class="row">
+<div>      <p>
+  <div class=" fs-4 d-flex justify-content-between"> Where are the ceremony and reception taking place? <a class="btn " data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+    <i class="fas  fa-angle-down"></i>
+   </a></div>
+    
+  </p>
+  <div class="collapse" id="collapseExample">
+    <div class="card card-body">
+     Some wedding have the same venue for the ceremony and the reception, others do not. Give your guests the addresses for each venue and any information on transport between sites.
+    </div>
+   
+</div>
+</div>
+</div>
+
+  
+      
+     </div>
+        
+    
+    <div class="col-md-6"><img class="img-fluid rounded" width="500" src="qs-1.jpg" alt=""></div>
+  </div>
+
+</section>
+
   </main>
+<!-- =========================contact=========================== -->
+ <div>
+  <h2 style="color:rgb(243, 63, 213); text-align: center; margin-left: 30px;" class="fs-1">
+    For Booking Please Contact Us
+   </h2>
+  <section class="container mb-5 contact-us">
+   
+    <div style="padding: 20px;">
+      <div style="color:rgb(243, 63, 213);">
+        <label for="floatingPassword">Name</label>
+        <input type="text"  class="form-control m-3 p-3" id="floatingPassword" placeholder="Your name">
+      
+      </div>
+      <div   style="color:rgb(243, 63, 213);">
+        <label for="floatingInput">Email address</label>
+        <input type="email" class="form-control m-3 p-3" id="floatingInput" placeholder="name@example.com">
+      
+      </div>
+     
+      <div style="color:rgb(243, 63, 213);">
+        <label for="floatingPassword">Phone Number</label>
+        <input type="number" class="form-control m-3 p-3" id="floatingPassword" placeholder="Phone number">
+     <a href="https://play.google.com/store/apps/details?id=com.google.android.gm&hl=en&gl=US"> <button style="background-color: rgb(243, 63, 213);" class="btn  text-light fs-4 px-4 rounded-pill" type="submit">Submit</button></a>
+      </div>
+      
+    </div>
+
+    
+  </section>
+ </div>
+
   <footer>
     <section class="footer-bg ">
     <div class=" d-flex justify-content-around align-items-center">
      <div>
-       <p>&copy; Copyright system</p>
+       <p>&copy; Copyright reserved</p>
      </div>
      <div class="text-center" >
        <h3>Download the App</h3>
@@ -226,10 +313,9 @@
      </div>
     </div>
     </section>
-    </footer>
-    
 
-    
+    </footer>
+
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
